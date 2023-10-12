@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>form</title>
+</head>
+<style>
+    body {
+        background: linear-gradient(to right,
+                rgb(73, 113, 116) 0%,
+                rgb(73, 113, 116) 50%,
+                #D6E4E5 50%,
+                #D6E4E5 100%);
+        height: 100vh;
+        padding: auto;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main {
+
+        justify-content: space-between;
+        border: 5px solid black;
+        width: 500px;
+        padding: none;
+        background: linear-gradient(to top,
+                rgb(182, 255, 250) 0%,
+                rgb(182, 255, 250) 50%,
+                rgb(152, 228, 255) 50%,
+                rgb(152, 228, 255) 100%);
+
+    }
+
+    #form {
+        padding-top: 10px;
+        margin-bottom: 20px;
+    }
+</style>
+
+<body>
+    <div class="main">
+        <h1> we create our html form </h1>
+        <form action=""></form>
+        <div id="form">
+            <label for="name"></label>
+            Name: <input type="text" class="name" id="name" placeholder="name">
+        </div>
+        <div id="form">
+            <label for="age"></label>
+            Email: <input type="email" class="email" id="email" placeholder="email">
+        </div>
+        <div id="form">
+            <label for="age"></label>
+            Age: <input type="number" class="age" id="age" placeholder="your age">
+        </div>
+        <div id="form">
+            <label for="course"></label>
+            Course: <select name="course" id="">
+                <option value="1">BTech</option>
+                <option value="2">MCA</option>
+                <option value="3">MTech</option>
+            </select>
+        </div>
+    </div>
+
+</body>
+
+</html>
